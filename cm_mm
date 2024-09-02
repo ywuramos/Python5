@@ -1,0 +1,4 @@
+m = float(input('Distancia em metro: '))
+cm = m * 100
+mm = m * 1000
+print('centimetros {:.0f}cm, milimetros {:.0f}mm'.format(cm, mm))
